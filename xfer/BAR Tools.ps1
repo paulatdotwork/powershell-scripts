@@ -162,6 +162,7 @@ $ComboBox1.Add_SelectedIndexChanged({
             $networktext = $PSScriptRoot + "\res\amd64\scanstate " + $networkpath + $env:COMPUTERNAME + " /i:" + $PSScriptRoot + "\res\amd64\miguser.xml i:/" + $PSScriptRoot + "\res\amd64\migapp.xml /c /o /r:1 /w:5 /uel:30"
             New-Item -path $basepath\res\network.bat -ItemType File -Value $networktext -force
             start $basepath\res\network.bat -Wait -Verb runas
+            write-host "Copy is done"
             }
         2 {
             Write-Host $ComboBox1.SelectedItem
@@ -181,6 +182,7 @@ $ComboBox1.Add_SelectedIndexChanged({
             $restoretext = $PSScriptRoot + "\res\amd64\loadstate " + $networkpath + $loadpc + $ComboBox2.SelectedItem + " \res\profiles\" + $loadpc + " /i:" + $PSScriptRoot + "\res\amd64\miguser.xml i:/" + $PSScriptRoot + "\res\amd64\migapp.xml /all"
             New-Item -path $basepath\res\networkrestore.bat -ItemType File -Value $restoretext -force
             start $basepath\res\networkrestore.bat -Wait -Verb runas
+            
             }
         }
 
