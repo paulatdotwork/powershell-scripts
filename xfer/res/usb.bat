@@ -1,0 +1,1 @@
+%~dp0amd64\scanstate %~dp0profiles\%computername% /i:%~dp0amd64\miguser.xml /i:%~dp0amd64\migapp.xml /c /o /r:1 /w:5 /uel:30

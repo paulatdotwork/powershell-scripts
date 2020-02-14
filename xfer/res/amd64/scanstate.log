@@ -1,0 +1,242 @@
+﻿2019-09-11 14:02:29, Info                  [0x000000] SCANSTATE.EXE Version 10.0.14393[gle=0x000000b7]
+2019-09-11 14:02:29, Info                  [0x000000] USMT Started at 2019/09/11:14:02:29.949
+2019-09-11 14:02:29, Info                  [0x000000] Command line: scanstate M: /o /c /i:miguser.xml /i:custom.xml /r:1 /w:5 /uel:0 /ue:*/* /ui:domain01\pwindsor
+2019-09-11 14:02:30, Info                  [0x000000] Starting the migration process
+﻿2019-09-11 14:02:30, Warning               [0x080000] ELAM hive is missing (C:\Windows\system32\config\elam). Ignoring load request.
+2019-09-11 14:02:31, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:31, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-16860[gle=0x000000cb]
+2019-09-11 14:02:31, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:31, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-16956[gle=0x000000cb]
+2019-09-11 14:02:32, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:32, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-17433[gle=0x000000cb]
+2019-09-11 14:02:32, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:32, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-18325[gle=0x000000cb]
+2019-09-11 14:02:32, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:32, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-18343[gle=0x000000cb]
+2019-09-11 14:02:33, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:33, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-18355[gle=0x000000cb]
+2019-09-11 14:02:35, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:35, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-6363[gle=0x000000cb]
+2019-09-11 14:02:35, Warning               [0x080000] LookupAccountSidW failed. Error: 0x00000534[gle=0x00000534]
+2019-09-11 14:02:35, Warning               [0x0803ba] Found valid profile but can't get user credentials. Will ignore due to error code: 0x00000534 User SID: S-1-5-21-261770020-1816353638-313073093-6387[gle=0x000000cb]
+2019-09-11 14:02:36, Error                 [0x0803b6] Can't retrieve group information for user NT SERVICE\MSSQL$ADK. NetUserGetLocalGroups failed 0x000008AD[gle=0x000003e5]
+2019-09-11 14:02:36, Info                  [0x000000] Host system information:
+                                   OS version: 6.1.7601
+                                   Architecture: x64
+                                   Manufacturer: Hewlett-Packard
+                                   Model : HP ProDesk 600 G1 SFF
+                                   AoAc (connected standby) : No
+                                   BIOS name : Default System BIOS
+                                   BIOS version : L01 v02.21
+                                   BIOS release date : 20131217000000.000000+000
+                                   Total memory : 17179869184
+                                   Processor manufacturer : GenuineIntel
+                                   Processor name : Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+                                   Processor caption : Intel64 Family 6 Model 60 Stepping 3
+                                   Processor architecture : (null)
+                                   Processor clock : 3201
+
+2019-09-11 14:02:36, Info                  [0x000000] System information:
+                                   Computer name: SSDTECH15
+                                   Machine SID: S-1-5-21-3046133810-1191989048-4078600701
+                                   OS version: 6.1.7601.Service Pack 1
+                                   Language: en-US
+                                   Architecture: 64-bit
+
+                                   Drives:
+                                     T: Type: Remote
+                                     G: Type: CD/DVD
+                                     C: Type: Fixed, Bus type: RAID, Hotplug: No
+                                     O: Type: Remote
+                                     U: Type: Remote
+                                     D: Type: Fixed, Bus type: RAID, Hotplug: No
+                                     E: Type: Fixed, Bus type: RAID, Hotplug: No
+                                     M: Type: Remote
+                                     F: Type: CD/DVD
+
+                                   Users:
+                                     NT SERVICE\MSSQL$ADK, administrator: No, interactive: Yes, logged on: No, has profile: Yes
+                                     SSDTECH15\ssdaadmin, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\SSDServices, administrator: Yes, interactive: No, logged on: No, has profile: Yes
+                                     DOMAIN01\ngauthier, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\rnahrgang, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     SSDTECH15\Guest, administrator: No, interactive: Yes, logged on: No, has profile: No
+                                     DOMAIN01\bmortimer, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\mveasey, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\gdean, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\sgestwicki, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\pwindsor, administrator: Yes, interactive: Yes, logged on: Yes, has profile: Yes
+                                     DOMAIN01\fturner, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\RKiser, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\jpeltz, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\Administrator, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\jwoods, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     SSDTECH15\Administrator, administrator: Yes, interactive: Yes, logged on: No, has profile: No
+                                     SSDTECH15\SSDAdmin, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     DOMAIN01\whoffman, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+
+
+2019-09-11 14:02:36, Info                  [0x000000] Script file specified: C:\umstlocal\amd64\miguser.xml
+2019-09-11 14:02:36, Info                  [0x000000] Script file specified: C:\umstlocal\amd64\custom.xml
+2019-09-11 14:02:38, Info                  [0x000000] Processing the settings store
+2019-09-11 14:02:38, Info                  [0x000000] Examining the system to discover the migration units
+[gle=0x000000b7]
+2019-09-11 14:04:44, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-explorer
+2019-09-11 14:04:49, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-PeerDist-Client-Migration
+2019-09-11 14:04:50, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-RasBase
+2019-09-11 14:04:51, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-UPnPDeviceHost
+2019-09-11 14:04:53, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/WindowsSearchEngine
+2019-09-11 14:04:56, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-CAPI2-certs
+2019-09-11 14:05:00, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-dpapi-keys
+2019-09-11 14:05:06, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-International-Core
+2019-09-11 14:05:08, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Microsoft-Data-Access-Components-(MDAC)-ODBC-DriverManager-Dll
+2019-09-11 14:05:14, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-RasApi
+2019-09-11 14:05:17, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-shmig
+2019-09-11 14:05:18, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-TextServicesFramework-Migration
+2019-09-11 14:05:21, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Win32k-Settings
+2019-09-11 14:05:24, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-SystemMaintenanceService
+2019-09-11 14:05:24, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Rights-Management-Client-v1-API
+2019-09-11 14:05:24, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-mmsys
+2019-09-11 14:05:24, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Shell-Sounds
+2019-09-11 14:05:24, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-eudcedit
+2019-09-11 14:05:24, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-sysdm
+2019-09-11 14:05:24, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:24, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:24, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:24, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:24, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:24, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:24, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:24, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:25, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:05:25, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:05:25, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:05:25, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:05:25, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\TPG\HWRCustomization is considered invalid in the current context
+2019-09-11 14:05:25, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\TPG\HWRCustomization is considered invalid in the current context
+2019-09-11 14:05:25, Info                  [0x000000] Selecting migration units
+
+2019-09-11 14:05:25, Info                  [0x000000] Gathering data
+
+2019-09-11 14:05:25, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:25, Warning               [0x080386] Failure while instantiating IPreGather for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:25, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:25, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:25, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:25, Warning               [0x080386] Failure while instantiating IPreGather for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:25, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:05:25, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:05:25, Warning               [0x0808fe] Plugin {050ed09e-a530-41e6-8ac9-a9a96e74a2c1}: [shmig] Failed to CoCreate IPersistAppItemsState object, hr=0x80040154. Expected if downlevel OS is > Win8.1
+2019-09-11 14:05:25, Warning               [0x0808fe] Plugin {050ed09e-a530-41e6-8ac9-a9a96e74a2c1}: [shmig] Failed to copy from C:\Users\pwindsor\AppData\Local\Microsoft\Windows\appsFolderLayout.bin to C:\Users\pwindsor\AppData\Local\Temp\tmpABA5.tmp\Working\agentmgr\CCSIAgent\005AE70A\USER00000004\appsFolderLayout.bin, hr=0x80070002
+2019-09-11 14:05:25, Warning               [0x0808fe] Plugin {050ed09e-a530-41e6-8ac9-a9a96e74a2c1}: [shmig] Failed to copy Win8* layout to temporary location, hr=0x80070002
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:05:25, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:05:26, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:05:26, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:05:26, Warning               [0x080386] Failure while instantiating IPreGather for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:05:26, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:05:26, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:08:26, Warning               [0x0801fb] Perf warning: embedding large data stream in catalog entry (462846 bytes): HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify [PastIconsStream]
+2019-09-11 14:08:26, Warning               [0x0801fb] Perf warning: embedding large data stream in catalog entry (180159 bytes): HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage2 [ProgramsCache]
+2019-09-11 14:09:14, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:14, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:14, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:14, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:09:14, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:09:14, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:09:14, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:14, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:14, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:14, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:09:14, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:09:14, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:09:14, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:09:16, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:16, Warning               [0x080386] Failure while instantiating IPreGather for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:16, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:16, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:16, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:16, Warning               [0x080386] Failure while instantiating IPreGather for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:16, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:09:16, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:09:17, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:09:17, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:09:17, Warning               [0x080386] Failure while instantiating IPreGather for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:09:17, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:09:17, Warning               [0x080386] Failure while instantiating IDiscovery for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:13:04, Warning               [0x0801fb] Perf warning: embedding large data stream in catalog entry (143874 bytes): HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate [EncodedCtl]
+2019-09-11 14:13:07, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:13:07, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:13:07, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:13:07, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:13:07, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:13:07, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:13:07, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Printing-LocalPrinting-Replacement\QueueMig.dll, {8A901309-89F7-4344-90C1-C0429228B8FB}, 0) failed, hr=[0x80070003].
+2019-09-11 14:13:07, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Printing-LocalPrinting-Replacement\QueueMig.dll", CLSID={8A901309-89F7-4344-90C1-C0429228B8FB}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:13:07, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-RasApi-Mig\pbkmigr.dll, {92C85649-0892-4BC7-9B63-949F64149A26}, 0) failed, hr=[0x80070003].
+2019-09-11 14:13:07, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="Microsoft-Windows-RasApi-Mig\pbkmigr.dll", CLSID={92c85649-0892-4bc7-9b63-949f64149a26}, ThreadingModel=Apartment}. Error: 0x80070003
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMJPMIG.DLL) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMJPMIG.DLL) gle=0
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\IMKRMIG.DLL) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\IMKRMIG.DLL) gle=0
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\CHXMIG.DLL) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\CHXMIG.DLL) gle=0
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibraryEx error (C:\umstlocal\amd64\ReplacementManifests\Microsoft-Windows-TextServicesFramework-Migration\TableTextServiceMig.dll) gle=126
+2019-09-11 14:13:07, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: LoadLibrary error (C:\Windows\system32\TableTextServiceMig.dll) gle=0
+2019-09-11 14:13:07, Error                 [0x0808ff] COutOfProcPluginFactory::CreateInstance: m_currentHostSurrogate->LoadDllServer(C:\umstlocal\amd64\ReplacementManifests\WindowsSearchEngine\WSearchMigPlugin.dll, {617C0A54-D12E-4340-87E7-01CC31BDE762}, 0) failed, hr=[0x8007007e].
+2019-09-11 14:13:07, Warning               [0x080386] Failure while instantiating IPostGather for Plugin={ServerPath="WindowsSearchEngine\WSearchMigPlugin.dll", CLSID={617c0a54-d12e-4340-87e7-01cc31bde762}, ThreadingModel=Apartment}. Error: 0x8007007E
+2019-09-11 14:13:11, Info                  [0x000000] Success.[gle=0x00000091]
+2019-09-11 14:13:11, Info                  [0x000000] USMT Completed at 2019/09/11:14:13:11.134[gle=0x00000091]
+2019-09-11 14:13:11, Info                  [0x000000] ----------------------------------- USMT ERROR SUMMARY -----------------------------------
+2019-09-11 14:13:11, Info                  [0x000000] No error in migration process is recorded.

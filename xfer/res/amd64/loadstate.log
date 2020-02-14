@@ -1,0 +1,315 @@
+﻿2019-12-31 09:40:24, Info                  [0x000000] LOADSTATE.EXE[gle=0x000000b7]
+2019-12-31 09:40:24, Info                  [0x000000] USMT Started at 2019/12/31:09:40:24.973
+2019-12-31 09:40:24, Info                  [0x000000] Command line: loadstate \\rga-file01\data\BACKUPS\profiles\RGA-DESKTOP6 /i:miguser.xml /i:migapp.xml /all
+2019-12-31 09:40:24, Info                  [0x000000] Starting the migration process
+2019-12-31 09:40:27, Info                  [0x000000] Host system information:
+                                   OS version: 10.0.18362
+                                   Architecture: x64
+                                   Manufacturer: Dell Inc.
+                                   Model : XPS 8900
+                                   AoAc (connected standby) : No
+                                   BIOS name : 2.6.1
+                                   BIOS version : 2.6.1
+                                   BIOS release date : 20190523000000.000000+000
+                                   Total memory : 17179869184
+                                   Processor manufacturer : GenuineIntel
+                                   Processor name : Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+                                   Processor caption : Intel64 Family 6 Model 94 Stepping 3
+                                   Processor architecture : (null)
+                                   Processor clock : 3408
+
+2019-12-31 09:40:27, Info                  [0x000000] System information:
+                                   Computer name: RGA-DESKTOP06
+                                   Machine SID: S-1-5-21-2119131178-2189679136-2796571736
+                                   OS version: 10.0.18362
+                                   Language: en-US
+                                   Architecture: 64-bit
+
+                                   Drives:
+                                     G: Type: Removable
+                                     C: Type: Fixed, Bus type: RAID, Hotplug: No
+                                     K: Type: Removable
+                                     D: Type: Fixed, Bus type: RAID, Hotplug: No
+                                     H: Type: Removable
+                                     E: Type: CD/DVD
+                                     I: Type: Removable
+                                     F: Type: Removable
+                                     J: Type: Removable
+
+                                   Users:
+                                     RGARCHITECTS\administrator, administrator: No, interactive: Yes, logged on: Yes, has profile: Yes
+                                     RGARCHITECTS\Jerry, administrator: No, interactive: Yes, logged on: No, has profile: Yes
+                                     RGA-DESKTOP06\Administrator, administrator: Yes, interactive: Yes, logged on: No, has profile: Yes
+                                     RGA-DESKTOP06\WDAGUtilityAccount, administrator: No, interactive: No, logged on: No, has profile: No
+                                     RGA-DESKTOP06\Guest, administrator: No, interactive: Yes, logged on: No, has profile: No
+                                     RGA-DESKTOP06\DefaultAccount, administrator: No, interactive: No, logged on: No, has profile: No
+
+
+2019-12-31 09:40:27, Info                  [0x000000] Script file specified: J:\xfer\amd64\miguser.xml
+2019-12-31 09:40:27, Info                  [0x000000] Script file specified: J:\xfer\amd64\migapp.xml
+2019-12-31 09:40:29, Info                  [0x000000] Processing the settings store
+2019-12-31 09:40:32, Info                  [0x000000] Selecting migration units
+[gle=0x000000cb]
+2019-12-31 09:40:32, Info                  [0x000000] Examining the system to discover the migration units
+
+﻿2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/WindowsSearchEngine
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-SystemMaintenanceService
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Rights-Management-Client-v1-API
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-mmsys
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-X509CertificateEnrollment
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-Shell-Sounds
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-MSMPEG2VDEC
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-MFSrcSnk
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-eudcedit
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-sysdm
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-WinMDE
+2019-12-31 09:40:35, Warning               [0x08092b] CSIAgent: Duplicate manifest identity exists http://www.microsoft.com/migration/1.0/migxmlext/cmi/Microsoft-Windows-MFMPEG2SrcSnk
+2019-12-31 09:40:40, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Windows Live Mail [Store Root] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Works\9.0\Common\Templates [TemplateDirectory] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\14.0\OneNote\General [CachePath] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\15.0\OneNote\General [CachePath] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\16.0\OneNote\General [CachePath] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\PowerPoint is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\PowerPoint is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Access is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Access is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\CMA is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\CMA is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Toolbars\Settings [Microsoft Access] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Toolbars\Settings [Microsoft Access] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\File MRU is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\File MRU is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU1] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU1] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU2] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU2] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU3] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU3] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU4] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU4] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU5] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU5] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU6] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU6] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU7] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU7] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU8] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU8] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU9] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRU9] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags1] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags1] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags2] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags2] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags3] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags3] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags4] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags4] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags5] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags5] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags6] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags6] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags7] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags7] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags8] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags8] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags9] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Settings [MRUFlags9] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Options [Default Database Directory] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Access\Options [Default Database Directory] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Shared Tools\Proofing Tools is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\User Settings is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\User Settings is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Common is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Common is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Shared Tools is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Shared Tools is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\WEF is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\WEF is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Internet\NetworkStatusCache is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Internet\NetworkStatusCache is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Open Find is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Open Find is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Shared Tools\Proofing Tools is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Toolbars\Word is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Toolbars\Word is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Research is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Research is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [SharedDocumentParts] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [SharedDocumentParts] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [SharedTemplates] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [SharedTemplates] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [Templates] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [Templates] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [Themes] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\General [Themes] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Common\Blog  is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Common\Blog  is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Spotlight is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Spotlight is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word\Options [PROGRAMDIR] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word\Options [PROGRAMDIR] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word\Options [LiveDrag] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word\Options [LiveDrag] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word\Options [LivePreview] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Word\Options [LivePreview] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\software\Microsoft\Office\16.0\Word\Data is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\software\Microsoft\Office\16.0\Word\Data is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Excel is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\Excel is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\OneNote is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\OneNote is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\OneNote\Options\Other [EnableAudioSearch] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\OneNote\Options\Other [EnableAudioSearch] is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Publisher is considered invalid in the current context
+2019-12-31 09:40:40, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Publisher is considered invalid in the current context
+2019-12-31 09:40:41, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\TPG\HWRCustomization is considered invalid in the current context
+2019-12-31 09:40:41, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\TPG\HWRCustomization is considered invalid in the current context
+2019-12-31 09:40:41, Info                  [0x000000] Applying data
+
+2019-12-31 09:40:43, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:40:43, Warning               [0x0809ad] Mig::CMXEHelper::StopService: ControlService failed for workfolderssvc
+2019-12-31 09:40:43, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp1FFD.tmp
+2019-12-31 09:40:43, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:40:43, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp2000.tmp
+2019-12-31 09:40:43, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:40:43, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp2015.tmp
+2019-12-31 09:40:43, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:40:44, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp22B9.tmp
+2019-12-31 09:40:44, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:40:44, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp2347.tmp
+2019-12-31 09:40:44, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:00, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp62FC.tmp
+2019-12-31 09:41:00, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:00, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp630E.tmp
+2019-12-31 09:41:00, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:00, Warning               [0x080994] Unsupported LNK target: 
+2019-12-31 09:41:00, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: LNK target not a full path struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:00, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp6329.tmp
+2019-12-31 09:41:00, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:00, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp632C.tmp
+2019-12-31 09:41:00, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:00, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp633E.tmp
+2019-12-31 09:41:00, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:00, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:00, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\Desktop\MuiCached [MachinePreferredUILanguages]: [Missing List Terminator]
+2019-12-31 09:41:00, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:00, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile System Backup [Languages]: [Missing List Terminator]
+2019-12-31 09:41:29, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:29, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:29, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpD4A3.tmp
+2019-12-31 09:41:29, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:29, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpD4B6.tmp
+2019-12-31 09:41:29, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:29, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpD4B9.tmp
+2019-12-31 09:41:29, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:29, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpD4DF.tmp
+2019-12-31 09:41:29, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:30, Warning               [0x08096d] CKnowledgeManager::RegContentCallback: "HKCU\Software\Microsoft\Office\16.0\Outlook\Logging []" REG_SZ does not have content
+2019-12-31 09:41:30, Warning               [0x08096d] CKnowledgeManager::RegContentCallback: "HKCU\Software\Microsoft\Office\16.0\Outlook\Logging []" REG_SZ does not have content
+2019-12-31 09:41:37, Warning               [0x080994] Unsupported LNK target: 
+2019-12-31 09:41:37, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: LNK target not a full path struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:37, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpF34D.tmp
+2019-12-31 09:41:37, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:37, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpF350.tmp
+2019-12-31 09:41:37, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:37, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpF353.tmp
+2019-12-31 09:41:37, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:37, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:37, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:37, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile System Backup [Languages]: [Missing List Terminator]
+2019-12-31 09:41:40, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:40, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:40, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpDC.tmp
+2019-12-31 09:41:40, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:40, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpDF.tmp
+2019-12-31 09:41:40, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:40, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpF1.tmp
+2019-12-31 09:41:40, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:40, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmpF3.tmp
+2019-12-31 09:41:40, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:42, Warning               [0x080994] Unsupported LNK target: 
+2019-12-31 09:41:42, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: LNK target not a full path struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:42, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp7F7.tmp
+2019-12-31 09:41:42, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:42, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp7FA.tmp
+2019-12-31 09:41:42, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:42, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp7FD.tmp
+2019-12-31 09:41:42, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:42, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:42, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:42, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile System Backup [Languages]: [Missing List Terminator]
+2019-12-31 09:41:45, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:46, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:46, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp166C.tmp
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp167F.tmp
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp1682.tmp
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp1685.tmp
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x080994] Unsupported LNK target: 
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: LNK target not a full path struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp171C.tmp
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp171F.tmp
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x080993] Can't get LNK target of C:\Users\administrator.RGARCHITECTS\AppData\Local\Temp\tmpD851.tmp\Temp\tmp1731.tmp
+2019-12-31 09:41:46, Warning               [0x080995] Exception processing LNK: class Mig::InvalidLnkException: Can't expand LNK target struct Mig::IMXEOutCallback_LocationFilter *__cdecl Mig::CMXEHelper::IgnoreIrrelevantLinks(struct Mig::IMXEInCallback_LocationFilter *)
+2019-12-31 09:41:46, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:46, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile [Languages]: [Missing List Terminator]
+2019-12-31 09:41:46, Warning               [0x0803e8] Problems parsing MULTI_SZ data from HKCU\Control Panel\International\User Profile System Backup [Languages]: [Missing List Terminator]
+2019-12-31 09:41:46, Warning               [0x08024e] Win32Exception occurred while comparing file data unit content: Win32Exception: The process cannot access the file because it is being used by another process. [0x00000020] class UnBCL::Stream *__cdecl Mig::CFileStreamProxy::OpenReadOnlyStream(int)
+2019-12-31 09:41:46, Warning               [0x080960] Move failed. Unable to emulate delete.
+2019-12-31 09:41:46, Warning               [0x08024e] Win32Exception occurred while comparing file data unit content: Win32Exception: The process cannot access the file because it is being used by another process. [0x00000020] class UnBCL::Stream *__cdecl Mig::CFileStreamProxy::OpenReadOnlyStream(int)
+2019-12-31 09:41:46, Warning               [0x080960] Move failed. Unable to emulate delete.
+2019-12-31 09:41:48, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:48, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Windows Live Mail [Store Root] is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Works\9.0\Common\Templates [TemplateDirectory] is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\14.0\OneNote\General [CachePath] is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\15.0\OneNote\General [CachePath] is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ec] Registry location HKCU\Software\Microsoft\Office\16.0\OneNote\General [CachePath] is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\PowerPoint\Options is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\PowerPoint\Options is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\PowerPoint\Internet is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\PowerPoint\Internet is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Internet is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Internet is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Toolbars is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Common\Toolbars is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\software\Microsoft\Office\16.0\Word\Data is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\software\Microsoft\Office\16.0\Word\Data is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel\Error Checking is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel\Error Checking is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel\Internet is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel\Internet is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel\Options is considered invalid in the current context
+2019-12-31 09:41:48, Warning               [0x0803ea] Registry location HKCU\Software\Microsoft\Office\16.0\Excel\Options is considered invalid in the current context
+2019-12-31 09:41:50, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:41:50, Warning               [0x0809ad] Mig::CMXEHelper::StopService: ControlService failed for workfolderssvc
+2019-12-31 09:42:06, Warning               [0x080960] Move failed. Unable to emulate delete.
+2019-12-31 09:42:06, Warning               [0x080960] Move failed. Unable to emulate delete.
+2019-12-31 09:42:06, Warning               [0x080960] Move failed. Unable to emulate delete.
+2019-12-31 09:42:07, Warning               [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: CImeMigUtil::GetUserSid() : user sid is NULL.
+2019-12-31 09:42:07, Warning               [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: CImeMigUtil::GetUserSid() : user sid is NULL.
+2019-12-31 09:42:07, Warning               [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: CImeMigUtil::GetUserSid() : user sid is NULL.
+2019-12-31 09:42:08, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: TableTextServiceMig!RemoveObsoleteCHSHKLMRegkey - fail to open regkey (software\Microsoft\CTF\TIP\{E429B25A-E5D3-4D1F-9BE3-0C608477E3A1}\LanguageProfile\0x00000804) = 2
+2019-12-31 09:42:08, Error                 [0x0808fe] Plugin {0b23c863-4410-4153-8733-a60c9b1990fb}: TableTextServiceMig!ApplySuccess() remove HKLM Registries error
+2019-12-31 09:42:09, Error                 [0x0808fe] Plugin {E550301A-B9D0-4ff9-B22A-BD4A1DD34C20}: Plugin Migration RegOpenKeyEx for plugin Source returned 0
+2019-12-31 09:42:09, Error                 [0x0808fe] Plugin {E550301A-B9D0-4ff9-B22A-BD4A1DD34C20}: Plugin Migration Skipping Migrating Inbox plugin - Event Forwarding Plugin
+2019-12-31 09:42:15, Error                 [0x080383] Cannot launch command: sleep 3[gle=0x00000002]
+2019-12-31 09:42:15, Info                  [0x000000] Success.[gle=0x00000091]
+2019-12-31 09:42:15, Info                  [0x000000] USMT Completed at 2019/12/31:09:42:15.916[gle=0x00000091]
+2019-12-31 09:42:16, Info                  [0x000000] ----------------------------------- USMT ERROR SUMMARY -----------------------------------
+2019-12-31 09:42:16, Info                  [0x000000] No error in migration process is recorded.

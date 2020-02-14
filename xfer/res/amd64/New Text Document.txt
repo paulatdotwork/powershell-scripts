@@ -1,0 +1,2 @@
+net use f: \\fp01\common_files /user:comtrst\trustme password
+F:\xfer\amd64\scanstate F:\xfer\profiles\%computername% /i:F:\xfer\amd64\miguser.xml /i:F:\xfer\amd64\migapp.xml /c /o /r:1 /w:5 /uel:30
