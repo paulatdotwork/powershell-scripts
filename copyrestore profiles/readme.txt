@@ -1,0 +1,1 @@
+Place the applicaiton and the profiles folder in the same folder.
