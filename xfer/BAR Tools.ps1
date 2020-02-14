@@ -159,7 +159,7 @@ $ComboBox1.Add_SelectedIndexChanged({
             }
         1 {
             $networkpath = $TextBox1.Text
-            $networktext = $PSScriptRoot + "\res\amd64\scanstate " + $networkpath + " /i:" + $PSScriptRoot + "\res\amd64\miguser.xml i:/" + $PSScriptRoot + "\res\amd64\migapp.xml /c /o /r:1 /w:5 /uel:30"
+            $networktext = $PSScriptRoot + "\res\amd64\scanstate " + $networkpath + $env:COMPUTERNAME + " /i:" + $PSScriptRoot + "\res\amd64\miguser.xml i:/" + $PSScriptRoot + "\res\amd64\migapp.xml /c /o /r:1 /w:5 /uel:30"
             New-Item -path $basepath\res\network.bat -ItemType File -Value $networktext -force
             start $basepath\res\network.bat -Wait -Verb runas
             }

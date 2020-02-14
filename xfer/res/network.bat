@@ -1,1 +1,1 @@
-D:\xfer\amd64\scanstate c:\ /i:D:\xfer\miguser.xml i:/D:\xfer\migapp.xml /c /o /r:1 /w:5 /uel:30
+C:\Users\padmin\Documents\gitscripts\powershell-scripts\xfer\res\amd64\scanstate H:\Users\pwindsor /i:C:\Users\padmin\Documents\gitscripts\powershell-scripts\xfer\res\amd64\miguser.xml i:/C:\Users\padmin\Documents\gitscripts\powershell-scripts\xfer\res\amd64\migapp.xml /c /o /r:1 /w:5 /uel:30
