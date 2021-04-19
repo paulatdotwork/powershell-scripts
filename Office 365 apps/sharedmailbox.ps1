@@ -1,5 +1,13 @@
 ﻿#convert user mailbox to a shared mailbox
 
+#install exchangeonline
+try{ 
+    Connect-ExchangeOnline -ErrorAction Stop > $null
+}
+catch {
+    Install-Module -name Exchangeonlinemanagement
+}
+
 #connect to exchange online
 try
 {
